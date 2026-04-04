@@ -1,0 +1,38 @@
+{
+  "name": "joai-http",
+  "version": "0.1.0",
+  "description": "Connect HTTP to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/http",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "http"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "HTTP by JoAi",
+    "shortDescription": "Connect HTTP to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "A set of skills to make HTTP requests to any URL.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/http",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the HTTP tools available in this app.",
+      "Explain what setup or authentication HTTP needs before I run an action.",
+      "Use HTTP to help me with the task I describe next."
+    ]
+  }
+}
